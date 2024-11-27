@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Makanan Restoran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .menu-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .menu-item h3 {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+
+        .menu-item p {
+            color: #555;
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+
+        .price {
+            font-size: 1.2rem;
+            color: #e91e63;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Menu Makanan Restoran</h1>
+    <p>Selamat datang di restoran kami! Silakan pilih menu yang Anda inginkan.</p>
+</header>
+
+<div class="menu">
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/300x200" alt="Nasi Goreng">
+        <h3>Nasi Goreng</h3>
+        <p>Nasi goreng dengan bumbu spesial, telur, dan sayuran segar.</p>
+        <p class="price">Rp 30.000</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/300x200" alt="Sate Ayam">
+        <h3>Sate Ayam</h3>
+        <p>Sate ayam dengan bumbu kacang khas, disajikan dengan lontong.</p>
+        <p class="price">Rp 25.000</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/300x200" alt="Mie Goreng">
+        <h3>Mie Goreng</h3>
+        <p>Mie goreng dengan pilihan daging ayam atau seafood.</p>
+        <p class="price">Rp 28.000</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/300x200" alt="Pizza Margherita">
+        <h3>Pizza Margherita</h3>
+        <p>Pizza dengan saus tomat, keju mozzarella, dan basil segar.</p>
+        <p class="price">Rp 60.000</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Restoran Kami. Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>
